@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
 
-axios.defaults.baseURL = 'http://localhost:8000/api/';
+axios.defaults.baseURL = 'https://movie-app-backendapi.herokuapp.com/api/';
 
 ReactDOM.render(
   <React.StrictMode>
