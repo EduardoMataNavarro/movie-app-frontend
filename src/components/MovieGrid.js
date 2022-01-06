@@ -8,7 +8,7 @@ export default function MovieGrid({ cols, gap, movies, title }) {
     return (
         <div className="w-full p-4">
             <h1 className="text-2xl">{title}</h1>
-            <div className={`grid grid-cols-${cols} gap-${gap} py-6`}>
+            <div className={`grid grid-cols-5 gap-4 py-6`}>
                 {
                     movies && movies.map((movie, idx) => {
                         return (
